@@ -30,7 +30,7 @@ par(mfrow=c(2,2))
 # make the plots
 plot(exacttime, globalactivepower, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
 
-plot(exacctime, Voltage, type="l", xlab = "datetime", ylab = "Voltage")
+plot(exacttime, Voltage, type="l", xlab = "datetime", ylab = "Voltage")
 
 plot(exacttime,Sub_metering_1,type="l",xlab="",ylab="Energy sub metering")
 lines(exacttime,Sub_metering_2,type="l",col="red")
